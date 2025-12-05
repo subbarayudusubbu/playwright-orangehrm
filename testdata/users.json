@@ -1,0 +1,46 @@
+{
+  "validLogin": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+
+  "invalidUser": {
+    "username": "Admin123",
+    "password": "admin123"
+  },
+
+  "validUser_invalidPassword": {
+    "username": "Admin",
+    "password": "wrongPass"
+  },
+
+  "invalidUser_invalidPassword": {
+    "username": "WrongUser",
+    "password": "WrongPass123"
+  },
+
+  "emptyUser_validPassword": {
+    "username": "",
+    "password": "admin123"
+  },
+
+  "validUser_emptyPassword": {
+    "username": "Admin",
+    "password": ""
+  },
+
+  "emptyUser_emptyPassword": {
+    "username": "",
+    "password": ""
+  },
+
+
+  
+    "emp": {
+      "firstname": "Ravi",
+      "middlename": "Kumar",
+      "lastname": "Sai",
+      "empid": "12345"
+    }
+ 
+}
