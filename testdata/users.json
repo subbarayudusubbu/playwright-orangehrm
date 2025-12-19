@@ -1,4 +1,9 @@
 {
+
+  "RahulValidLogin": {
+    "email": "subbu123@gmail.com",
+    "password": "Subbu@1234"
+  },
   "validLogin": {
     "username": "Admin",
     "password": "admin123"

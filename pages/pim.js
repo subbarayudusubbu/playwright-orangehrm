@@ -14,10 +14,12 @@ class pimpage{
     }
 
     async clickonpimTab(){
+        // click on pim tab
         await this.adminTab.click();
     }
 
     async clickonaddpimBtn(){
+        // click on add button
         await this.addadminBtn.click();
     }
     async addpimdetails(empname,empmiddele,emplastname,empid){

@@ -2,6 +2,9 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  
+      
+  timeout: 120_000,
   testDir: './tests',           // folder where your tests are located
   timeout: 60 * 1000,           // max time for each test (60s)
   expect: {
@@ -17,11 +20,12 @@ export default defineConfig({
     
     // Screenshots and videos
     screenshot: 'on',  // capture screenshot on failure
-    video: 'retain-on-failure',     // record video only if test fails
+    video: 'on',     // record video only if test fails
     trace: 'on-first-retry',        // trace enabled for first retry of failed test
 
     // Base URL for tests (optional)
-   
+
+
   },
 
   projects: [
